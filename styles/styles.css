@@ -1,9 +1,22 @@
 body {
-  background: blue !important;
+  background: MediumTurquoise !important;
 }
 
+  #top li {
+      display: inline;
+      padding: 0px 5px 0px 5px;
+      
+
 #top ul {
-    padding: 10px;
-    background: red;
-    opacity: 0.8;
+	list-style-type: none;
+    float: left;
+    padding: 5px;
+    background-color: black;
+}
+
+img {
+	border-radius: 50% !important;
+    display: block;
+    margin: auto;
+    width: 50%;
 }
