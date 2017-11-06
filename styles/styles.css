@@ -3,6 +3,16 @@ body {
   background: MediumTurquoise !important;
 }
 
+h1 { 
+  display: inline;
+  padding: 0px 10px 0px 10px;
+ }
+
+ h3 { 
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  }
+
   #top li {
       display: inline;
       padding: 0px 5px 0px 5px;
