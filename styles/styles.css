@@ -14,13 +14,6 @@ body {
     float: left;
     padding: 5px;
     background-color: black;
-
-
 }
 
-img {
-	border-radius: 50% !important;
-    display: block;
-    margin: auto;
-    width: 50%;
-}
+
