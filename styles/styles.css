@@ -41,3 +41,11 @@ p.card-text {
     height: 200px;
     overflow: scroll;
 }
+
+.navbar-header {
+  padding: 0px 50px;
+}
+
+.navbar-form navbar-right {
+  padding: 0px 50px;
+}
