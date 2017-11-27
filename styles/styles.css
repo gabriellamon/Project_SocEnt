@@ -26,4 +26,17 @@ h1 {
     background-color: black;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
+.lady {
+    width: 100%;
+}
+
+p.card-text {
+    max-height: 450px;
+    height: 400px;
+    overflow: scroll;
+}
