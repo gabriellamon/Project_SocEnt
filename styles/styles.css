@@ -29,6 +29,7 @@ h1 {
 .img-fluid {
     max-width: 100%;
     height: auto;
+    max-height: 300px;
 }
 
 .lady {
@@ -37,6 +38,6 @@ h1 {
 
 p.card-text {
     max-height: 450px;
-    height: 400px;
+    height: 200px;
     overflow: scroll;
 }
