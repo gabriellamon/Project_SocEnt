@@ -64,6 +64,13 @@ h5 {
     background-color: black;
 }
 
+li.nav-item: last-child {
+    margin-right: 0;
+}
+li.nav-item {
+    margin-right: 35px;
+}
+
 .col-sm-3 {
     margin-top: 0px;
     margin-bottom: 0px;
