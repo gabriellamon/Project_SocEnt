@@ -1,31 +1,56 @@
-
-body {
-  background: #ecf0f1 !important;
+<style> body {
+    background: #ecf0f1 !important;
 }
 
-h1 { 
-  text-align: center;
-  padding: 0px 10px 0px 10px;
- }
-
- h3 { 
-  display: inline;
-  padding: 0px 10px 0px 10px;
-  }
-
-  h4 { 
-  text-align: center;
-  padding: 0px 10px 0px 10px;
- }
-
-  #top li {
-      display: inline;
-      padding: 0px 5px 0px 5px;
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
+h1 {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h3 {
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#top li {
+    display: inline;
+    padding: 0px 5px 0px 5px;
+}
 
 #top ul {
-	list-style-type: none;
+    list-style-type: none;
     float: left;
     padding: 5px;
     background-color: black;
@@ -49,9 +74,22 @@ p.card-text {
 }
 
 .navbar-header {
-  padding: 0px 50px;
+    padding: 0px 50px;
 }
 
 .navbar-form navbar-right {
-  padding: 0px 50px;
+    padding: 0px 50px;
 }
+
+#quote_soc {
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: transparent;
+}
+
+</style>
