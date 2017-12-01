@@ -64,6 +64,19 @@ h5 {
     background-color: black;
 }
 
+.input-group {
+background: none;
+border: none;
+border-bottom: 1px solid #fff;
+border-radius: 0;
+}
+
+.btn.btn-default {
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
 li.nav-item: last-child {
     margin-right: 0;
 }
@@ -103,6 +116,11 @@ p.card-text {
 .navbar-form {
     padding: 0px 50px;
     background-color: transparent;
+}
+
+.col-sm-3 {
+margin-right: 35px;
+margin-left: 45px;
 }
 
 #quote_soc {
