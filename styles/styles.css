@@ -1,4 +1,6 @@
-<style> body {
+<style> 
+
+body {
     background: #ecf0f1 !important;
 }
 
@@ -56,6 +58,14 @@ h5 {
     background-color: black;
 }
 
+.col-sm-3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 40px;
+}
+
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -74,12 +84,14 @@ p.card-text {
 }
 
 .navbar-header {
+    padding: 0px 50px 0px 50px;
+    white-space: 100px;
+}
+
+.navbar-form {
     padding: 0px 50px;
 }
 
-.navbar-form navbar-right {
-    padding: 0px 50px;
-}
 
 #quote_soc {
     font-size: 16px;
