@@ -14,7 +14,6 @@ p {
 div {
     margin-right: 25px;
     margin-left: 25px;
-
 }
 
 h1 {
@@ -71,6 +70,27 @@ border-bottom: 1px solid #fff;
 border-radius: 0;
 }
 
+input[type=text] {
+    width: 130px;
+    height: 25px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text] {
+    width: 130px;
+    color: white;
+}
+
 .btn.btn-default {
     background: none;
     color: #fff;
@@ -90,7 +110,6 @@ li.nav-item {
     margin-right: 25px;
     margin-left: 40px;
 }
-
 
 .img-fluid {
     max-width: 100%;
