@@ -1,176 +1,148 @@
-<style> 
-
-body {
-    background: #ecf0f1 !important;
-}
-
-#top li {
-    display: inline;
-    padding: 0px 5px 0px 5px;
-}
-
-#top ul {
-    list-style-type: none;
-    float: left;
-    padding: 5px;
-    background-color: black;
-}
-
-.input-group {
-background: none;
-border: none;
-border-bottom: 1px solid #fff;
-border-radius: 0;
-}
-
-input[type=text] {
-    width: 130px;
-    height: 25px;
-    box-sizing: border-box;
-    border: transparent;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: transparent;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text] {
-    width: 130px;
-    color: white;
-}
-
-.btn.btn-default {
-    background: none;
-    color: #fff;
-    cursor: pointer;
-}
-
-li.nav-item: last-child {
-    margin-right: 0;
-}
-
-li.nav-item {
-    margin-right: 35px;
-}
-
-p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-div {
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-h1 {
-    text-align: center;
-    padding: 0px 10px 0px 10px;
-}
-
-h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-h3 {
-    display: inline;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-h4 {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-h5 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-#login {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 20px;
-    margin-left: 15px;
-}
-
-.col-sm-3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 25px;
-    margin-left: 40px;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    max-height: 300px;
-}
-
-.lady {
-    width: 100%;
-    height: auto;
-}
-
-p.card-text {
-    max-height: 450px;
-    height: 220px;
-    overflow: scroll;
-}
-
-.navbar-header {
-    padding: 0px 20px 0px 20px;
-}
-
-.navbar-form {
-    padding: 0px 50px;
-    background-color: transparent;
-}
-
-.col-sm-3 {
-margin-right: 35px;
-margin-left: 45px;
-}
-
-.blockquote {
-text-align: center;
- font-size: 14px;
-  margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-.container {
-       margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 25px;
-    margin-left: 25px; 
-}
-
-.submit {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 25px;
-    margin-left: 50px; 
-}
-
+<style>
+    body {
+        background: #ecf0f1 !important;
+    }
+    #top li {
+        display: inline;
+        padding: 0px 5px 0px 5px;
+    }
+    #top ul {
+        list-style-type: none;
+        float: left;
+        padding: 5px;
+        background-color: black;
+    }
+    .input-group {
+        background: none;
+        border: none;
+        border-bottom: 1px solid #fff;
+        border-radius: 0;
+    }
+    input[type=text] {
+        width: 130px;
+        height: 25px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: transparent;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    input[type=text] {
+        width: 130px;
+        color: white;
+    }
+    .btn.btn-default {
+        background: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    li.nav-item: last-child {
+        margin-right: 0;
+    }
+    li.nav-item {
+        margin-right: 35px;
+    }
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    div {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    h1 {
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+    }
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    h3 {
+        display: inline;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    h4 {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    h5 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #login {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+        margin-left: 15px;
+    }
+    .col-sm-3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 25px;
+        margin-left: 40px;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+    .lady {
+        width: 100%;
+        height: auto;
+    }
+    p.card-text {
+        max-height: 450px;
+        height: 220px;
+        overflow: scroll;
+    }
+    .navbar-header {
+        padding: 0px 20px 0px 20px;
+    }
+    .navbar-form {
+        padding: 0px 50px;
+        background-color: transparent;
+    }
+    .col-sm-3 {
+        margin-right: 35px;
+        margin-left: 45px;
+    }
+    .blockquote {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .container {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .submit {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 25px;
+        margin-left: 50px;
+    }
 </style>
